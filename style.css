@@ -1,0 +1,71 @@
+section.section-padding {
+    padding: 80px 0;
+}
+
+body {
+    color: #828282;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+.section-title h2 {
+    position: relative;
+    padding-bottom: 7px;
+}
+
+.section-title h2:before, .section-title h2:after  {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #333;
+    bottom: 0;
+}
+
+.section-title h2:after {
+    left: 60px;
+    background: #ddd;
+    width: 20px;
+}
+.owl-carousel .owl-item .single-staff-item img {
+	width: 160px;
+	border-radius: 50%;
+}
+.staff-list {
+	margin-top: 25px;
+}
+.staff-list .owl-nav button i {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+	margin-right: 5px;
+	transition: all ease .3s;
+}
+
+.staff-list .owl-nav button i:hover {
+	background: #13acf3;
+	color: #fff;
+}
+.staff-list .owl-nav button:focus {
+	outline: none;
+}
+.staff-list .owl-nav {
+    position: absolute;
+    top: -60px;
+    right: 0;
+}
+.staf-meta {
+    margin-top: 20px;
+}
+.staf-meta  h3 {
+	text-transform: uppercase;
+}
+.section-title {
+    margin-bottom: 30px;
+}
